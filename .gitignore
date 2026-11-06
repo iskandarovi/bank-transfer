@@ -1,0 +1,18 @@
+# Environment va maxfiy sozlamalar
+.env
+.env.*
+!.env.example
+
+# Go build/test natijalari
+/bin/
+/build/
+*.exe
+*.test
+*.out
+coverage.out
+
+# IDE va OS fayllari
+.idea/
+.vscode/
+.DS_Store
+__MACOSX/
